@@ -1,0 +1,687 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<!-- Mirrored from www.constructorainsur.com/ing/servicios.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:00 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INSUR - constructora</title>
+<link rel="shortcut icon" href="../images/favicon.png">
+<link href="../css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../js/respond.min.js"></script>
+
+<!-- Owl Carousel Assets -->
+<link href="../css/owl.carousel.css" rel="stylesheet">
+<link href="../css/owl.theme.css" rel="stylesheet">
+<link href="../css/owl.transitions.css" rel="stylesheet">
+<link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">  
+<script src="../assets/js/jquery-1.9.1.min.js"></script> 
+<script src="../js/owl.carousel.js"></script>
+
+<!-- Demo -->
+<style>
+    #owl-demo .item img, #owl-demo_interna .item img, #owl-demo2 .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+      var owl = $("#owl-demo");
+      owl.owlCarousel({
+        navigation : false,
+        singleItem : true,
+        transitionStyle : "fade",
+		autoPlay: 7000,
+      });
+	  
+      $("#transitionType").change(function(){
+        var newValue = $(this).val();
+        owl.data("owlCarousel").transitionTypes(newValue);
+        owl.trigger("owl.next");
+      });
+    });
+
+</script>
+
+<link rel="stylesheet" href="../css/flickity.css" media="screen">
+<script src="../js/flickity.pkgd.js"></script>
+<script src="../js/flickity-docs.min.js"></script>
+<script>
+    $(document).ready(function() {
+		$('.carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+<script>
+    $(document).ready(function() {
+		$('.main-carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+
+<script src='../../www.google.com/recaptcha/api.js'></script>	
+<script type="text/javascript" src="../js/custom.js"></script>
+
+<style>
+#owl-demo_2 .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+</style>
+<script>
+$(document).ready(function() {
+      $("#owl-demo_2").owlCarousel({
+      navigation : false,
+      slideSpeed : 300,
+      singleItem : true,
+	  autoPlay: true,
+	  lazyLoad : true,
+      });
+});
+</script>
+
+<!--<script language="JavaScript">
+document.writeln(screen.width)
+</script>-->
+
+<script src="../js/jquery-latest.html"></script>
+<script type="text/javascript">	
+	
+	$(document).on("scroll",function(){
+		if($(document).scrollTop()>360){ 
+			$("#submenu").addClass("fijo");
+			$("#w_gale_proy").addClass("espacio");
+		} else {
+			$("#submenu").removeClass("fijo");
+			$("#w_gale_proy").removeClass("espacio");
+		}
+	});
+	$(document).ready(function() {
+    $('#cerrar').click(function() {
+		if ($('#example2_pop').hasClass('quitar')) {
+				$('#example2_pop').removeClass('quitar');
+				$('#cerrar').removeClass('girar');
+		} else {
+			$('#example2_pop').addClass('quitar');
+			$('#example2_pop_').addClass('quitar');
+			$('#cerrar').addClass('girar');
+			}
+		});
+	});
+
+	$(document).ready(function() {
+    $('#chat').click(function() {
+		if ($('#example2_pop').hasClass('ver')) {
+				$('#example2_pop').removeClass('ver');
+		} else {
+			$('#example2_pop').addClass('ver');
+			$('#example2_pop_').addClass('ver');
+			}
+		});
+	});
+</script>
+
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.10.1.min.html"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox8cbb.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons3447.css?v=1.0.5" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons3447.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-thumbsf2ad.css?v=1.0.7" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-thumbsf2ad.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-mediac924.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.html');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 's.php',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+
+<script>
+$(function($){
+	   $('#submenu a').click(function() {
+			var $this = $(this),
+			  _href = $this.attr('href'),
+					dest  = $(_href).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({  scrollTop: dest}, 400 );
+			return false;
+		}); 
+	});
+
+
+//$(document).on("scroll",function(){
+//		if($(document).scrollTop()>360){ 
+//			$('html, body').animate({
+//        		scrollTop: $('#w_bienvenido').offset().top
+//    		}, 'slow');
+//		}
+//	});
+
+	</script>
+
+</head>
+<body>
+    
+    <ul class="navigation">
+  <li> <a href="index-2.html" class="transition" >HOME</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >ABOUT</a> </li>
+                    <li> <a href="servicios.html" class="activo transition" >SERVICES</a> </li>
+                    <li> <a href="proyectos.html" class="transition" >PROYECTS</a> </li>
+                    <li> <a href="clientes.html" class="transition" >CUSTOMERS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >CONTACT</a> </li>
+                    <li><li> <a href="../servicios.html">ESP</a> </li></li>
+
+  <li><a href="mailto:info@constructorainsur.com">info@constructorainsur.com<br />(442) 215 3019</a></li>
+</ul>
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+    <div class="site-wrap">
+    <div id="logo_ip"><img class="logo" src="../images/logo_menu.jpg" width="48%"/></div>
+
+<div id="w_menu">
+        <div class="gridContainer clearfix">
+        	<div id="logo_menu"> <a href="index-2.html"><img src="../images/logo_menu.jpg"></a> </div>
+            <div id="menu">
+            	<ul>
+                	<li> <a href="index-2.html" class="transition" >home</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >about</a> </li>
+                    <li> <a href="servicios.html" class="activo transition" >services</a> </li>
+                    <li> <a href="proyectos.html" class="transition" >projects</a> </li>
+                    <li> <a href="clientes.html" class="transition" >CLIENTS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >contact</a> </li>
+                    
+                    <li> <a href="../servicios.html"><img src="../images/idioma.png"> ESP</a> </li>                    
+                </ul>
+            </div>
+            <div class="cleare"></div>
+        
+        </div>
+    </div>
+        
+    <div id="top">
+    	        <div id="redes"> 
+        	<div id="face" class="redes_flotante"> <a href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"> <img src="images/face.html"></a> </div>
+            <div id="idioma" class="redes_flotante"> <a href="#"><img src="images/idioma.html"> ENG</a></div>
+        	<div class="cleare"></div>
+        </div>        
+        <div id="slide_internas" style=" background: url(../images/slide_serv.jpg) center / cover">
+        	<div class="caption">SPECIALISTS IN <br><!--<hr style=" width: 30px; text-align: center">--><span>CONSTRUCTION OF INDUSTRIAL FACILITIES</span></div>
+        </div>
+    </div>
+    
+    <div id="submenu">
+    	<div class="gridContainer clearfix">
+        	<ul>
+            	<li> <a href="#estudios">PRELIMINARY STUDIES </a></li>
+                <li> <a href="#arquitectonicos">ARCHITECTURAL PROJECTS </a></li>
+                <li> <a href="#construccion">CIVIL WORKS CONSTRUCTION </a></li>
+                <li> <a href="#terracerias">EARTHWORK</a></li>
+                <li> <a href="#edificacion">EDIFICATION</a></li>
+                <li> <a href="#estructuras">METAL STRUCTURES AND COVERS</a></li>
+                <li> <a href="#cuartos">CLEAN ROOMS</a></li>
+                <li> <a href="#cimientos">SPECIAL FOUNDATIONS</a></li>
+                <li> <a href="#instalaciones">INDUSTRIAL FACILITIES</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="w_servicios">
+		<h1 class="titulo" style=" text-align: center;">SERVICES</h1><br><br>
+        
+        <div class="bg_primero">
+        	<div class="ancla" id="estudios"></div>
+        	<div class="wrapserv">    
+            	<div class="foto_serv_l" style=" background: url(../images/serv1.png) no-repeat center / cover">
+                	<div class="numero">01</div>
+                </div>
+                <div class="txt_servicios6">
+                	<h1>PRELIMINARY STUDIES</h1>
+                    <p class="flotante">With a focus on the realization of integral projects, in Constructora Insur we offer a wide range of processes for the development of the whole project and during the construction of the entire work, our experience and precision, allow us to carry out work of planimetry and altimetry, as well as Several preliminary studies of each work, that do not carry out:<br><br>
+                    
+                    <span class="otrocolor">
+					- Obtaining polygonals.<br>
+                    - Calculation of surfaces.<br>
+                    - Leveling and building configuration.<br>
+                    - Obtaining levels of profanity.<br>
+                    - Obtaining volumes of earthwoks.<br>
+                    - Drainage design.<br>
+                    - Design of roads and courtyards.
+                    </span>
+                    </p>
+
+                    <p id="ull">These procedures make up the range of applications at the beginning of any job and are of vital importance in construction INSUR we perform with professionalism the engineering of soils, which by means of open wells and boreholes allow us to obtain the stratigraphy and properties of the soil, with the purpose of generating optimal conditions of viability, trust and planning for the design and calculation of any type of foundation, guaranteeing reliable and safe constructions.</p>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_segundo">
+        <div class="ancla" id="arquitectonicos"></div>
+        	<div class="wrapserv">  
+            <div class="foto_serv_2" id="serres" style=" background: url(../images/RONAL-7.jpg) no-repeat center / cover">
+                	<div class="numero_dos">02</div>
+                </div>  
+                <div class="txt_servicios">
+                	<h1>ARCHITECTURAL PROJECTS</h1>
+                    <p class="flotante">In Insur each project represents a deep commitment to quality, to achieve this we combine key elements of our team to work with our clients and to develop projects of total quality that live up to expectations and that are able to meet all your current needs And future through:</p>
+                    <p class="flotante">
+                    	 <span class="otrocolor">
+                        - Functional constructions.<br>
+                        - Optimization of Areas.<br>
+                        - Aesthetic Works.<br>
+                        - Preparation of Expansions.<br>
+                        - Updated Construction Systems.<br>
+                        - Excellent selection of finishes.<br>
+                        - Adequate Installations.
+                    </span>
+                    </p>
+				</div>
+                <div class="foto_serv_2" style=" background: url(../images/RONAL-7.jpg) no-repeat center / cover">
+                	<div class="numero_dos">02</div>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_primero">
+        <div class="ancla" id="construccion"></div>
+        	<div class="wrapserv">    
+            	<div class="foto_serv_l" style=" background: url(../images/serv3.png) no-repeat center / cover">
+                	<div class="numero">03</div>
+                </div>
+                <div class="txt_servicios6">
+                	<h1>CONSTRUCTION OF CIVIL WORK</h1>
+                    <p class="flotante">In the construction of Industrial Floors we make use of avant-garde tools that allow us to perform specific calculations and designs for each work, using concrete and high strength steels, high performance additives, synthetic fibers, hardeners, sealers, curing membranes, to achieve our Objectives we use laser equipment, vibrating rules, mechanical trowels and other updated equipment and tools for this type of work.</p>
+                    <p id="ull">For Insur there is nothing more important than our clients and their projects, for that reason we carry out with efficiency, care in the economic performance and professionalism the construction of Accesses, Roads, Parking and Playgrounds, as well as all type of Urbanizations.</p>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_segundo">
+        <div class="ancla" id="terracerias"></div>
+        	<div class="wrapserv"> 
+            <div class="foto_serv_2" id="serres" style=" background: url(../images/serv4.png) no-repeat center / cover">
+                	<div class="numero_dos">04</div>
+                </div>   
+                <div class="txt_servicios">
+                	<h1>EARTHWORKS</h1>
+                    <p class="flotante">For any development and construction, the management of soils represents a cornerstone for access, support and planning of the work, we offer solutions in Cortes, Fillings, Levels and Improvement of Soils.  </p>
+                    <p class="flotante">All are performed with the highest safety factor, supporting them with Laboratory Tests to verify Volumetric Weights, Moisture Content and Compaction Percentages required, according to the Design and Calculations previously established.</p>
+				</div>
+                <div class="foto_serv_2" style=" background: url(../images/serv4.png) no-repeat center / cover">
+                	<div class="numero_dos">04</div>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_primero">
+        <div class="ancla" id="edificacion"></div>
+        	<div class="wrapserv">    
+            	<div class="foto_serv_l" style=" background: url(../images/serv5.png) no-repeat center / cover">
+                	<div class="numero">05</div>
+                </div>
+                <div class="txt_servicios6">
+                	<h1>EDIFICATION</h1>
+                    <p class="flotante">In CONSTRUCTORA INSUR we want to turn big ideas into big constructions, so we establish and execute models and plans of structured work to get any building up. We have the technical and professional advice to carry out the Project and Construction of the Building that your company requires, such as: 
+                    <br><br>
+                    <span class="otrocolor">
+                    - Buildings for Offices.<br>
+                    - Commercial Buildings.<br>
+                    - Buildings for Bathrooms.<br>
+                    - Dining and Services.<br>
+                    - Industrial Type Rooms.<br>
+                    - Surveillance booths, etc.
+                    </span>
+                    </p>
+                    <p id="ull">We want to optimize spaces for all staff, we believe above all in the importance of having functional and aesthetic office buildings to maintain a motivating work environment and conducive to the activities that are performed thanks to the development of well-designed and comfortable facilities.</p>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_segundo">
+        <div class="ancla" id="estructuras"></div>
+        	<div class="wrapserv"> 
+            <div class="foto_serv_2" id="serres" style=" background: url(../images/serv6.png) no-repeat center / cover">
+                	<div class="numero_dos">06</div>
+                </div>   
+                <div class="txt_servicios">
+                	<h1>METAL STRUCTURES AND COVERS</h1>
+                    <p class="flotante">With three decades of experience, at Insur we are proud to be able to contribute with our customers from the outset, we offer you Design, Manufacture, Transport and Assembly of metal structures based on Rigid Frames with variable section, which have a great versatility to Be employed in Industrial Constructions, Warehouses and Commercial Buildings, covering Grandes Claros with great Speed, Economy and providing an Unbeatable Appearance.</p>
+                    <p class="flotante">Basic Structural Systems:<br><br>
+                    1.- · Hard frame of a single clear.<br>
+                    · Roof slope 33%.<br>
+                    · For special conditions.
+                    <br><br>
+                    
+                    2 .- · Hard frame of a single clear.<br>
+                    · Roof with low slope 8.33%.<br>
+                    · For large gaps without intermediate columns.
+                    <br><br>
+                    
+                    3.- · Multiple rigid frame.<br>
+                    · With several clearings.<br>
+                    · For wide buildings.<br>
+                    · Slope of 8.33%.</p>
+				</div>
+                <div class="foto_serv_2" style=" background: url(../images/serv6.png) no-repeat center / cover">
+                	<div class="numero_dos">06</div>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_primero">
+        <div class="ancla" id="cuartos"></div>
+        	<div class="wrapserv">    
+            	<div class="foto_serv_l" style=" background: url(../images/serv7.png) no-repeat center / cover">
+                	<div class="numero">07</div>
+                </div>
+                <div class="txt_servicios6">
+                	<h1>CLEAN ROOMS</h1>
+                    <p class="flotante">Thanks to our experience and knowledge of our clients, in INSUR, we offer the specialized service for each type of industry in order to satisfy your needs and solve any problem, for the food, pharmaceutical and laboratories we offer clean room construction or air Designed to meet requirements and standards that ensure a pristine state of treatment of inputs and materials.</p>
+                    <p id="ull">We complement this service with the options of HVAC Systems, Water Purification Systems, Washing Air Installation, Refrigerated Chambers, among others.</p>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_segundo">
+        <div class="ancla" id="cimientos"></div>
+        	<div class="wrapserv"> 
+            <div class="foto_serv_2" id="serres" style=" background: url(../images/ffff.jpg) no-repeat center / cover">
+                	<div class="numero_dos">08</div>
+                </div>   
+                <div class="txt_servicios">
+                	<h1>SPECIAL FOUNDATIONS</h1>
+                    <p class="flotante">We design, calculate and execute special foundations according to the needs of each industry, we plan and execute projects of foundations of presses and foundation for silos or equipment</p>
+                    <p class="flotante"> of high tonnage whether static or dynamic, following the highest safety standards and implementing state-of-the-art engineering.</p>
+				</div>
+                <div class="foto_serv_2" style=" background: url(../images/ffff.jpg) no-repeat center / cover">
+                	<div class="numero_dos">08</div>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+        <div class="bg_primero">
+        	<div class="ancla" id="instalaciones"></div>
+        	<div class="wrapserv">    
+            	<div class="foto_serv_l" style=" background: url(../images/serv9.png) no-repeat center / cover">
+                	<div class="numero">09</div>
+                </div>
+                <div class="txt_servicios6">
+                	<h1>INDUSTRIAL FACILITIES</h1>
+                    <p class="flotante">We plan, design, calculate, distribute and think as a specialized group for the development of industrial facilities that fulfill all the functionalities and importance required by our clients' projects. We carry out installations of the following types:</p>
+                    <p id="ull">
+                    	<span class="otrocolor">
+                        - Air conditioner.<br>
+                        - Electrical installations.<br>
+                        - Fire protection system.<br>
+                        - Mechanical installations.<br>
+                        - Steam, pneumatic.
+                        </span>
+                    </p>
+                </div>
+                <div class="cleare"></div>
+        	</div>
+        </div>
+        
+    </div>
+    
+    <div id="w_footer" style="letter-spacing:1px">
+    	<div class="gridContainer clearfix">
+        	<div id="logo_ft"> <img src="../images/logo_ft.png"> <p>®2020, ALL RIGHTS RESERVED</p> </div>
+            <div id="redes_ft"> <p>Tel. (442) 215 3019 /</p> <a href="mailto:info@constructorainsur.com" style=" color: #fff">info@constructorainsur.com</a>
+            <a id="fbfull" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fbfull" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fbfull" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fbfull" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+            </div>
+            <a id="fb" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fb" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fb" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fb" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+        	<div class="cleare"></div>
+        </div>
+    </div>
+
+<!--fin de responsive-->
+</div>
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+		(function () {
+		var options = {
+		whatsapp: "+524423150697", // WhatsApp number
+		call_to_action: "Contact us", // Call to action
+		position: "right", // Position may be 'right' or 'left'
+		};
+		var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+		s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		})();
+	</script>
+	<!-- /WhatsHelp.io widget --> 
+</body>
+
+<!-- Mirrored from www.constructorainsur.com/ing/servicios.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:00 GMT -->
+</html>

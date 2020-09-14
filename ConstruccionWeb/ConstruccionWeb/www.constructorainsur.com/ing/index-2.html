@@ -1,0 +1,927 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<!-- Mirrored from www.constructorainsur.com/ing/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:04 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INSUR - constructora</title>
+<link rel="shortcut icon" href="../images/favicon.png">
+<link href="../css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../js/respond.min.js"></script>
+
+<!-- Owl Carousel Assets -->
+<link href="../css/owl.carousel.css" rel="stylesheet">
+<link href="../css/owl.theme.css" rel="stylesheet">
+<link href="../css/owl.transitions.css" rel="stylesheet">
+<link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">  
+<script src="../assets/js/jquery-1.9.1.min.js"></script> 
+<script src="../js/owl.carousel.js"></script>
+
+<!-- Demo -->
+<style>
+    #owl-demo .item img, #owl-demo_interna .item img, #owl-demo2 .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+      var owl = $("#owl-demo");
+      owl.owlCarousel({
+        navigation : false,
+        singleItem : true,
+        transitionStyle : "fade",
+		autoPlay: 7000,
+      });
+	  
+      $("#transitionType").change(function(){
+        var newValue = $(this).val();
+        owl.data("owlCarousel").transitionTypes(newValue);
+        owl.trigger("owl.next");
+      });
+    });
+
+</script>
+
+<link rel="stylesheet" href="../css/flickity.css" media="screen">
+<script src="../js/flickity.pkgd.js"></script>
+<script src="../js/flickity-docs.min.js"></script>
+<script>
+    $(document).ready(function() {
+		$('.carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+<script>
+    $(document).ready(function() {
+		$('.main-carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+
+<script src='../../www.google.com/recaptcha/api.js'></script>	
+<script type="text/javascript" src="../js/custom.js"></script>
+
+<style>
+#owl-demo_2 .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+</style>
+<script>
+$(document).ready(function() {
+      $("#owl-demo_2").owlCarousel({
+      navigation : false,
+      slideSpeed : 300,
+      singleItem : true,
+	  autoPlay: true,
+	  lazyLoad : true,
+      });
+});
+</script>
+
+<!--<script language="JavaScript">
+document.writeln(screen.width)
+</script>-->
+
+<script src="../js/jquery-latest.html"></script>
+<script type="text/javascript">	
+	
+	$(document).on("scroll",function(){
+		if($(document).scrollTop()>360){ 
+			$("#submenu").addClass("fijo");
+			$("#w_gale_proy").addClass("espacio");
+		} else {
+			$("#submenu").removeClass("fijo");
+			$("#w_gale_proy").removeClass("espacio");
+		}
+	});
+	$(document).ready(function() {
+    $('#cerrar').click(function() {
+		if ($('#example2_pop').hasClass('quitar')) {
+				$('#example2_pop').removeClass('quitar');
+				$('#cerrar').removeClass('girar');
+		} else {
+			$('#example2_pop').addClass('quitar');
+			$('#example2_pop_').addClass('quitar');
+			$('#cerrar').addClass('girar');
+			}
+		});
+	});
+
+	$(document).ready(function() {
+    $('#chat').click(function() {
+		if ($('#example2_pop').hasClass('ver')) {
+				$('#example2_pop').removeClass('ver');
+		} else {
+			$('#example2_pop').addClass('ver');
+			$('#example2_pop_').addClass('ver');
+			}
+		});
+	});
+</script>
+
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.10.1.min.html"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox8cbb.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons3447.css?v=1.0.5" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons3447.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-thumbsf2ad.css?v=1.0.7" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-thumbsf2ad.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-mediac924.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.html');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 's.php',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+
+<script>
+$(function($){
+	   $('#submenu a').click(function() {
+			var $this = $(this),
+			  _href = $this.attr('href'),
+					dest  = $(_href).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({  scrollTop: dest}, 400 );
+			return false;
+		}); 
+	});
+
+
+//$(document).on("scroll",function(){
+//		if($(document).scrollTop()>360){ 
+//			$('html, body').animate({
+//        		scrollTop: $('#w_bienvenido').offset().top
+//    		}, 'slow');
+//		}
+//	});
+
+	</script>
+
+</head>
+<body>
+   
+      
+   <ul class="navigation">
+  <li> <a href="index-2.html" class="activo transition" >HOME</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >ABOUT</a> </li>
+                    <li> <a href="servicios.html" class="transition" >SERVICES</a> </li>
+                    <li> <a href="proyectos.html" class="transition" >PROYECTS</a> </li>
+                    <li> <a href="clientes.html" class="transition" >CUSTOMERS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >CONTACT</a> </li>
+                    <li><li> <a href="../index-2.html">ESP</a> </li></li>
+
+  <li><a href="mailto:info@constructorainsur.com">info@constructorainsur.com<br />(442) 215 3019</a></li>
+</ul>
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+    <div class="site-wrap">
+    <div id="logo_ip"><img class="logo" src="../images/logo_menu.jpg" width="48%"/></div>
+
+<div id="w_menu">
+        <div class="gridContainer clearfix">
+        	<div id="logo_menu"> <a href="index-2.html"><img src="../images/logo_menu.jpg"></a> </div>
+            <div id="menu">
+            	<ul>
+                	<li> <a href="index-2.html" class="activo transition" >home</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >about</a> </li>
+                    <li> <a href="servicios.html" class="transition" >services</a> </li>
+                    <li> <a href="proyectos.html" class="transition" >projects</a> </li>
+                    <li> <a href="clientes.html" class="transition" >CLIENTS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >contact</a> </li>
+                    
+                    <li> <a href="../index-2.html"><img src="../images/idioma.png"> ESP</a> </li>                    
+                </ul>
+            </div>
+            <div class="cleare"></div>
+        
+        </div>
+    </div>
+        
+    
+    <div id="top">
+    	        <div id="redes"> 
+        	<div id="face" class="redes_flotante"> <a href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"> <img src="images/face.html"></a> </div>
+            <div id="idioma" class="redes_flotante"> <a href="#"><img src="images/idioma.html"> ENG</a></div>
+        	<div class="cleare"></div>
+        </div>    	<div id="w_slide">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div id="owl-demo" class="owl-carousel">
+                        <div class="item" style=" position:relative"><div class="caption"> <br><!--<hr style=" width: 30px; text-align: center">--><span></span></div><img src="../images/insur-slide-ing.jpg"></div><div class="item" style=" position:relative"><div class="caption">SPECIALISTS IN  <br><!--<hr style=" width: 30px; text-align: center">--><span>CONSTRUCTION OF INDUSTRIAL FACILITIES</span></div><img src="../images/insur-slide1.jpg"></div><div class="item" style=" position:relative"><div class="caption">EXCELLENT <br><!--<hr style=" width: 30px; text-align: center">--><span>ENGINEERING IN DESIGN</span></div><img src="../images/insur-slide2.jpg"></div><div class="item" style=" position:relative"><div class="caption">MORE THAN 30 YEARS <br><!--<hr style=" width: 30px; text-align: center">--><span>SUPPORT OUR PROFESSIONAL WORK</span></div><img src="../images/inur-slide3.jpg"></div>                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="scroll"> <img src="../images/scrolldown.png"> </div>
+    </div>
+    
+    <div id="w_bienvenido">
+    	<div class="gridContainer clearfix">
+        	<h1 class="titulo" style=" text-align: center">WELCOME</h1>
+            <br><br>            
+            <div id="treinta"> <img src="../images/35_.png"> </div>
+            <div id="texto_bienvenido">
+            	<p><span class="capitalLetter">W</span>ith the vision of consolidating the industrial and economic growth of our country CONSTRUCTORA INSUR was born more than 35 years ago, made up of a group of specialists in each area that composes the process of construction of industrial plants, warehouses and commercial buildings, responding in a professional manner And working as a team with our clients to solve and create projects that exceed their expectations, turning big ideas into big constructions.</span></p>
+            </div>
+            <div id="botones_mas">
+            	<a href="conocenos.html" id="btn_ver_mas" class="transition">SEE MORE</a>
+                <a href="login_cv.html" id="btn_descarga" class="fancybox" data-fancybox-type="iframe">DOWNLOAD OUR CV</a>
+            	<div class="cleare"></div>
+            </div>
+            <div class="cleare"></div>
+        </div>
+        <div id="bicolor"></div>
+    </div>
+    
+    <div id="w_serv">
+    	<div class="gridContainer clearfix">
+        	<h1 class="titulo">SERVICES</h1>
+            <br><br>
+        </div>
+        
+        <!--<div id="oberlay_serv"></div>-->
+        <div id="ver_mac" class="carousel--show-several" data-flickity="{ &quot;groupCells&quot;: 3, &quot;pageDots&quot;: false, &quot;autoPlay&quot;: 6000 }">
+        	
+            	<div class="carousel-cell">
+					<a href="servicios.html#construccion" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>CONSTRUCTION OF CIVIL WORK</h1>
+                                <p>We work with great pace, efficiency and economic performance to build access roads, roads, parking lots and maneuvering yards, as well as all types of urbanizations, in this way we commit to our customers to deliver on time and in order.</p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="construccion">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#estudios" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                            <div class="foto" id="estudios_preliminares">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                            <div class="texto_arriba">
+                            	<h1>PRELIMINARY STUDIES </h1>
+                                <p>Focusing on the realization of integral projects, in Constructora Insur we offer a group of professionals in management and execution of planimetry as a complementary process to the development of construction projects. </p>
+                            	<div class="indicador_hacia_arriba"> <img src="../images/indicador_arriba.png"> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#terracerias" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1> EARTHWORK </h1>
+                                <p> For any development and construction, the soil management represents a cornerstone for access, support and planning of the work, we offer solutions in Cortes, Fillings, Levels and Improvement of Soils </p>
+                                <div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="terracerias">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#arquitectonicos" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                            <div class="foto" id="arquitectonicos">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                            <div class="texto_arriba">
+                            	<h1>ARCHITECTURAL PROJECTS</h1>
+                                <p>In Insur each project represents a deep commitment to quality, to achieve this we combine key elements of our team to work with our customers and to develop projects that live up to expectations.</p>
+                            	<div class="indicador_hacia_arriba"> <img src="../images/indicador_arriba.png"> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#edificacion" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>EDIFICATION</h1>
+                                <p>We want to turn big ideas into big constructions, so at Insur we establish and execute models and plans of structured work to raise any building. </p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_edificacion">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#estructuras" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                            <div class="foto" id="serv_metalicas">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                            <div class="texto_arriba">
+                            	<h1>METAL STRUCTURES AND COVERS</h1>
+                                <p>With three decades of experience, at Insur we are proud to be able to contribute with our customers from the very first moment, we offer Design, Manufacture, Transport and Assembly of metal structures. </p>
+                            	<div class="indicador_hacia_arriba"> <img src="../images/indicador_arriba.png"> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#cuartos" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>CLEAN ROOMS</h1>
+                                <p>In INSUR, we offer the specialized service for each type of industry in order to meet your needs and solve any problems, for the food industry we offer the construction of clean rooms or airships designed to meet requirements and standards that guarantee a state Pristine treatment of inputs. </p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_cuartos">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#cimientos" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                            <div class="foto" id="serv_cimientos_especiales">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                            <div class="texto_arriba">
+                            	<h1>SPECIAL FOUNDATIONS</h1>
+                                <p>We design, calculate and execute special foundations according to the needs of each industry, we plan and execute projects of foundation of presses and foundation for silos.</p>
+                            	<div class="indicador_hacia_arriba"> <img src="../images/indicador_arriba.png"> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell">
+					<a href="servicios.html#instalaciones" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>INDUSTRIAL FACILITIES</h1>
+                                <p>We plan, design, calculate, distribute and think as a specialized group for the development of industrial facilities that fulfill all the functionalities and importance required by our clients' projects.</p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_instalaciones_industriales">
+                            	<div class="btn_mas_serv"> <img src="../images/btn_serv_mas.png"> </div>
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+			</div>
+            
+            <div id="ver_iphone">
+        	
+            	<div class="carousel-cell_">
+					<a href="servicios.html#construccion" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>CONSTRUCTION OF CIVIL WORK</h1>
+                                <p> We work with great pace, efficiency and economic performance to build access roads, roads, parking lots and maneuvering yards, as well as all types of urbanizations, in this way we commit to our customers to deliver on time and in order. </p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="construccion">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#estudios" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+							<div class="texto_arriba">
+                            	<h1>PRELIMINARY STUDIES</h1>
+                                <p>Focusing on the realization of integral projects, in Constructora Insur we offer a group of professionals in management and execution of planimetry as a complementary process to the development of construction projects. </p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="estudios_preliminares">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#terracerias" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>EARTHWORK</h1>
+                                <p>For any development and construction, the soil management represents a cornerstone for access, support and planning of the work, we offer solutions in Cortes, Fillings, Levels and Improvement of Soils</p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="terracerias">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#arquitectonicos" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+							<div class="texto_arriba">
+                            	<h1>ARCHITECTURAL PROJECTS</h1>
+                                <p>In Insur each project represents a deep commitment to quality, to achieve this we combine key elements of our team to work with our customers and to develop projects that live up to expectations. </p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="arquitectonicos">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#edificacion" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>EDIFICATION</h1>
+                                <p> We want to turn big ideas into big constructions, so at Insur we establish and execute models and plans of structured work to raise any building.</p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_edificacion">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#estructuras" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+							<div class="texto_arriba">
+                            	<h1>METAL STRUCTURES AND COVERS</h1>
+                                <p>With three decades of experience, at Insur we are proud to be able to contribute with our customers from the very first moment, we offer Design, Manufacture, Transport and Assembly of metal structures.</p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_metalicas">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#cuartos" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>CLEAN ROOMS</h1>
+                                <p>In INSUR, we offer the specialized service for each type of industry in order to meet your needs and solve any problems, for the food industry we offer the construction of clean rooms or airships designed to meet requirements and standards that guarantee a state Pristine treatment of inputs. </p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_cuartos">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#cimientos" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+							<div class="texto_arriba">
+                            	<h1>SPECIAL FOUNDATIONS</h1>
+                                <p>We design, calculate and run special foundations according to the needs of each industry, plan and execute foundation and silicon foundation projects. </p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_cimientos_especiales">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="carousel-cell_">
+					<a href="servicios.html#instalaciones" class="transition">
+                    	<div class="w_serv_slide">
+<span style="display: none">a</span>
+                        	<div class="texto_arriba">
+                            	<h1>INDUSTRIAL FACILITIES</h1>
+                                <p>We plan, design, calculate, distribute and think as a specialized group for the development of industrial facilities that fulfill all the functionalities and importance required by our clients' projects.</p>
+                            	<div class="indicador_hacia_abajo"> <img src="../images/indicador.png"> </div>
+                            </div>
+                            <div class="foto" id="serv_instalaciones_industriales">
+                            	
+                            	<div class="overlay"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+			</div>
+            
+            
+        
+        <div class="gridContainer clearfix">
+            <div class="detalle">
+                EXCELLENT ENGINEERING<br>IN DESIGN
+            </div>   
+        </div>
+    </div>
+    
+    <div id="w_ventajas">
+    	<div class="gridContainer clearfix">
+        	<h1 class="titulo" style=" color: #fff">COMPETITIVE <br>ADVANTAGES</h1><br><br>
+            
+            <div class="uno_uno">
+                <div class="img_ventajas_l" id="v1"></div>
+                <div class="txt_ventajas_r">
+                    <h1>EXPERIENCE</h1>
+                    <p>With a specialized group with more than 30 years of work, we have the capacity to develop any construction project through the generation of Complete Work Packages.</p>
+                </div>
+                <div class="linea_ch"></div>
+                <div class="cleare"></div>
+            </div>
+            
+            <div class="uno_uno">
+            <div class="img_ventajas_l" id="v5"></div>
+            	<div class="txt_ventajas_l">
+                    <h1>RELIABILITY</h1>
+                    <p>We work with and for our clients. We are committed to every part of the process in order to guarantee an efficient and high quality service.</p>
+                </div>
+                <div class="img_ventajas_l" id="v2"></div>
+                <div class="linea_ch"></div>
+                <div class="cleare"></div>
+            </div>
+            
+            <div class="uno_uno">
+                <div class="img_ventajas_l" id="v3"></div>
+                <div class="txt_ventajas_r">
+                    <h1>SOLIDITY</h1>
+                    <p>We build industrial plants, warehouses and commercial buildings, through integral processes that take care of every aspect of the project, allowing us to offer confidence and security.</p>
+                </div>
+                <div class="linea_ch"></div>
+                <div class="cleare"></div>
+            </div>
+            
+            <div class="uno_uno">
+            <div class="img_ventajas_l" id="v6"></div>
+            	<div class="txt_ventajas_l">
+                    <h1>SINERGIA</h1>
+                    <p>We develop projects in constant collaboration with clear objectives to ensure that the execution of each project is aesthetic, functional and with a strong sense of engineering in design.</p>
+                </div>
+                <div class="img_ventajas_l" id="v4"></div>
+                <div class="linea_ch"></div>
+                <div class="cleare"></div>
+            </div>
+            
+            <div class="cleare"></div>
+        </div>
+    </div>
+    
+    <div id="w_clientes">
+    	<h1 class="titulo" style="text-align: center">CUSTOMERS</h1><br><br><br>
+        <div class="gridContainer clearfix">
+        <div id="reslog" style="display:flex">
+            <div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/01_TRUPER.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/2-advance.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/3-fitesa.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/4-irritec.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/5-narmco.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/ctesnucitec.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/6-ronalgroup.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/8-aceway.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/8-asimex.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/7-grapuc.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/10-mapei.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/11-kirchoff.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/12-mexicana.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/13-ricsa.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/rocktenn.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/sika_-.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/yakult.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/15-caneels.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/14-laQuinta.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/32-cooperstandard.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/17-facet.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/18-plasti.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/19-revlon.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/20-bandag.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/21-rubbermind.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/22-elica.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/22alpina.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/23-stempco.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/24-moelo.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/24ppg.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/25-inter.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/26-condumex.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/27-inland.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/28-interceramic.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/29-shering.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/crinamex.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/c-durango.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/30-braun.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/31-carrier.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/32-playtex.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/inamex.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/quinro.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/32-alcan.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/11clevete.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/valuadata.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/1narmx.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/qpomps.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/itpacero.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/yamada.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/alpura.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/lucta.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/brog.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/fanasa.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/motsa.jpg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/wabtec.svg" width="170px"></div></div><div style="height:100px; padding: 20px; width:28%"><div class="w_serv_slide-" style="display:flex;align-items: center;justify-content: center;"><img src="../images/vidrio.svg" width="170px"></div></div>	
+        </div>
+        </div>
+    </div>
+
+	<div id="w_contacto">
+    <div id="w_maps">
+    	<div id="google"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14941.432457721949!2d-100.361186!3d20.573428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbce086aa08210637!2sConstructora+Insur!5e0!3m2!1sen!2smx!4v1486599037780" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+        </div>
+        <script>
+    			$('#w_maps')
+				.click(function(){
+				$(this).find('iframe').addClass('clicked')})
+				.mouseleave(function(){
+				$(this).find('iframe').removeClass('clicked')});
+    			</script>
+    	<div id="form">
+        <br><br>
+        	<h1 class="titulo" style=" padding: 20px 0 0 0">CONTACT</h1>
+            <p id="fullpx">
+            <span style=" color: #000">Querétaro</span><br>
+            Av. Ing. Armando Birlain No. 2001, Piso 2-A<br>
+            Corporativo 2 Central Park, CP. 76090, Col Centro Sur<br>
+            Santiago de Querétaro, Qro.<br>
+            Tel. (442) 215 3019<br><br>
+
+            <span style=" color: #000">San Luis Potosí</span><br>
+            Av. Cordillera de los Himalaya No. 1018 <br>
+            Frac. Lomas 4ta Sección CP. 78216<br>
+            San Luis Potosí, SLP.<br>
+            Tel (444) 246 5250<br><br>
+            <a href="mailto:info@constructorainsur.com" style=" color: #000">info@constructorainsur.com</a></p>
+            <div id="formm">
+                        
+            <form action="https://www.constructorainsur.com/ing/index.php#w_contacto"  method="post"  onSubmit="return validar_contacto()">
+                <input type="hidden" name="bandera" value="1">
+            	<input type="text" class="input" name="nombre" id="nombre" placeholder="Name">
+                <input type="text" class="input" name="tel" id="tel" placeholder="Tel">
+                <input type="email" class="input" name="email" id="email" placeholder="Email">
+                <textarea class="input" name="comentario" id="comentario" placeholder="Message" style=" height: 100px;"></textarea>
+                <div class="recaptcha-wrap2">                   
+                	<div class="g-recaptcha" data-theme="dark" data-sitekey="6LdAgSAUAAAAABx5tHLNEmrGw57BIqRbj7DyXk7X"></div>
+				</div>
+                <input type="submit" class="input mandar" value="Send" style=" background: #1b2b56; color: #fff;">
+            </form>
+            
+                        </div>
+        </div>
+        <div class="cleare"></div>
+    </div>
+    
+    <div id="w_footer" style="letter-spacing:1px">
+    	<div class="gridContainer clearfix">
+        	<div id="logo_ft"> <img src="../images/logo_ft.png"> <p>®2020, ALL RIGHTS RESERVED</p> </div>
+            <div id="redes_ft"> <p>Tel. (442) 215 3019 /</p> <a href="mailto:info@constructorainsur.com" style=" color: #fff">info@constructorainsur.com</a>
+            <a id="fbfull" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fbfull" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fbfull" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fbfull" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+            </div>
+            <a id="fb" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fb" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fb" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fb" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+        	<div class="cleare"></div>
+        </div>
+    </div>
+
+<!--fin de responsive-->
+</div>
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+		(function () {
+		var options = {
+		whatsapp: "+524423150697", // WhatsApp number
+		call_to_action: "Contact us", // Call to action
+		position: "right", // Position may be 'right' or 'left'
+		};
+		var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+		s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		})();
+	</script>
+	<!-- /WhatsHelp.io widget --> 
+</body>
+
+<!-- Mirrored from www.constructorainsur.com/ing/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:04 GMT -->
+</html>

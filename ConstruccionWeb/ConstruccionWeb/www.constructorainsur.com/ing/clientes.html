@@ -1,0 +1,474 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<!-- Mirrored from www.constructorainsur.com/ing/clientes.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:04 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INSUR - constructora</title>
+<link rel="shortcut icon" href="../images/favicon.png">
+<link href="../css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../js/respond.min.js"></script>
+
+<!-- Owl Carousel Assets -->
+<link href="../css/owl.carousel.css" rel="stylesheet">
+<link href="../css/owl.theme.css" rel="stylesheet">
+<link href="../css/owl.transitions.css" rel="stylesheet">
+<link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">  
+<script src="../assets/js/jquery-1.9.1.min.js"></script> 
+<script src="../js/owl.carousel.js"></script>
+
+<!-- Demo -->
+<style>
+    #owl-demo .item img, #owl-demo_interna .item img, #owl-demo2 .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+      var owl = $("#owl-demo");
+      owl.owlCarousel({
+        navigation : false,
+        singleItem : true,
+        transitionStyle : "fade",
+		autoPlay: 7000,
+      });
+	  
+      $("#transitionType").change(function(){
+        var newValue = $(this).val();
+        owl.data("owlCarousel").transitionTypes(newValue);
+        owl.trigger("owl.next");
+      });
+    });
+
+</script>
+
+<link rel="stylesheet" href="../css/flickity.css" media="screen">
+<script src="../js/flickity.pkgd.js"></script>
+<script src="../js/flickity-docs.min.js"></script>
+<script>
+    $(document).ready(function() {
+		$('.carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+<script>
+    $(document).ready(function() {
+		$('.main-carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+
+<script src='../../www.google.com/recaptcha/api.js'></script>	
+<script type="text/javascript" src="../js/custom.js"></script>
+
+<style>
+#owl-demo_2 .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+</style>
+<script>
+$(document).ready(function() {
+      $("#owl-demo_2").owlCarousel({
+      navigation : false,
+      slideSpeed : 300,
+      singleItem : true,
+	  autoPlay: true,
+	  lazyLoad : true,
+      });
+});
+</script>
+
+<!--<script language="JavaScript">
+document.writeln(screen.width)
+</script>-->
+
+<script src="../js/jquery-latest.html"></script>
+<script type="text/javascript">	
+	
+	$(document).on("scroll",function(){
+		if($(document).scrollTop()>360){ 
+			$("#submenu").addClass("fijo");
+			$("#w_gale_proy").addClass("espacio");
+		} else {
+			$("#submenu").removeClass("fijo");
+			$("#w_gale_proy").removeClass("espacio");
+		}
+	});
+	$(document).ready(function() {
+    $('#cerrar').click(function() {
+		if ($('#example2_pop').hasClass('quitar')) {
+				$('#example2_pop').removeClass('quitar');
+				$('#cerrar').removeClass('girar');
+		} else {
+			$('#example2_pop').addClass('quitar');
+			$('#example2_pop_').addClass('quitar');
+			$('#cerrar').addClass('girar');
+			}
+		});
+	});
+
+	$(document).ready(function() {
+    $('#chat').click(function() {
+		if ($('#example2_pop').hasClass('ver')) {
+				$('#example2_pop').removeClass('ver');
+		} else {
+			$('#example2_pop').addClass('ver');
+			$('#example2_pop_').addClass('ver');
+			}
+		});
+	});
+</script>
+
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.10.1.min.html"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox8cbb.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons3447.css?v=1.0.5" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons3447.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-thumbsf2ad.css?v=1.0.7" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-thumbsf2ad.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-mediac924.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.html');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 's.php',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+
+<script>
+$(function($){
+	   $('#submenu a').click(function() {
+			var $this = $(this),
+			  _href = $this.attr('href'),
+					dest  = $(_href).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({  scrollTop: dest}, 400 );
+			return false;
+		}); 
+	});
+
+
+//$(document).on("scroll",function(){
+//		if($(document).scrollTop()>360){ 
+//			$('html, body').animate({
+//        		scrollTop: $('#w_bienvenido').offset().top
+//    		}, 'slow');
+//		}
+//	});
+
+	</script>
+
+</head>
+<body>
+    
+    <ul class="navigation">
+  <li> <a href="index-2.html" class="transition" >HOME</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >ABOUT</a> </li>
+                    <li> <a href="servicios.html" class="transition" >SERVICES</a> </li>
+                    <li> <a href="proyectos.html" class="transition" >PROYECTS</a> </li>
+                    <li> <a href="clientes.html" class="activo transition" >CUSTOMERS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >CONTACT</a> </li>
+                    <li><li> <a href="../clientes.html">ESP</a> </li></li>
+
+  <li><a href="mailto:info@constructorainsur.com">info@constructorainsur.com<br />(442) 215 3019</a></li>
+</ul>
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+    <div class="site-wrap">
+    <div id="logo_ip"><img class="logo" src="../images/logo_menu.jpg" width="48%"/></div>
+
+<div id="w_menu">
+        <div class="gridContainer clearfix">
+        	<div id="logo_menu"> <a href="index-2.html"><img src="../images/logo_menu.jpg"></a> </div>
+            <div id="menu">
+            	<ul>
+                	<li> <a href="index-2.html" class="transition" >home</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >about</a> </li>
+                    <li> <a href="servicios.html" class="transition" >services</a> </li>
+                    <li> <a href="proyectos.html" class="transition" >projects</a> </li>
+                    <li> <a href="clientes.html" class="activo transition" >CLIENTS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >contact</a> </li>
+                    
+                    <li> <a href="../clientes.html"><img src="../images/idioma.png"> ESP</a> </li>                    
+                </ul>
+            </div>
+            <div class="cleare"></div>
+        
+        </div>
+    </div>
+        
+    
+    <div id="top">
+    	        <div id="redes"> 
+        	<div id="face" class="redes_flotante"> <a href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"> <img src="images/face.html"></a> </div>
+            <div id="idioma" class="redes_flotante"> <a href="#"><img src="images/idioma.html"> ENG</a></div>
+        	<div class="cleare"></div>
+        </div>    	<div id="slide_internas" style=" background: url(../images/slideofi.jpg) center / cover">
+        	<div class="caption">MORE THAN 30 YEARS<br>
+            <span>SUPPORT OUR PROFESSIONAL WORK</span></div>
+        </div>
+    </div>
+    
+    <div id="w_clientes">
+    	
+        <div class="wrapcli"> 
+        <div class="clientes_img2" style="height: 144px"><img src="../images/01_TRUPER.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/2-advance.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/3-fitesa.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/4-irritec.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/5-narmco.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/ctesnucitec.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/6-ronalgroup.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/8-aceway.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/8-asimex.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/7-grapuc.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/10-mapei.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/11-kirchoff.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/12-mexicana.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/13-ricsa.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/rocktenn.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/sika_-.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/yakult.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/15-caneels.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/14-laQuinta.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/32-cooperstandard.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/17-facet.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/18-plasti.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/19-revlon.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/20-bandag.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/21-rubbermind.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/22-elica.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/22alpina.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/23-stempco.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/24-moelo.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/24ppg.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/25-inter.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/26-condumex.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/27-inland.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/28-interceramic.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/29-shering.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/crinamex.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/c-durango.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/30-braun.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/31-carrier.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/32-playtex.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/inamex.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/quinro.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/32-alcan.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/11clevete.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/valuadata.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/1narmx.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/qpomps.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/itpacero.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/yamada.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/alpura.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/lucta.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/brog.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/fanasa.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/motsa.jpg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/wabtec.svg"  width="216px"></div><div class="clientes_img2" style="height: 144px"><img src="../images/vidrio.svg"  width="216px"></div>        <div class="cleare"></div>
+        </div>
+                
+    </div>
+
+    <div id="w_footer" style="letter-spacing:1px">
+    	<div class="gridContainer clearfix">
+        	<div id="logo_ft"> <img src="../images/logo_ft.png"> <p>®2020, ALL RIGHTS RESERVED</p> </div>
+            <div id="redes_ft"> <p>Tel. (442) 215 3019 /</p> <a href="mailto:info@constructorainsur.com" style=" color: #fff">info@constructorainsur.com</a>
+            <a id="fbfull" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fbfull" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fbfull" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fbfull" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+            </div>
+            <a id="fb" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fb" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fb" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fb" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+        	<div class="cleare"></div>
+        </div>
+    </div>
+
+<!--fin de responsive-->
+</div>
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+		(function () {
+		var options = {
+		whatsapp: "+524423150697", // WhatsApp number
+		call_to_action: "Contact us", // Call to action
+		position: "right", // Position may be 'right' or 'left'
+		};
+		var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+		s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		})();
+	</script>
+	<!-- /WhatsHelp.io widget --> 
+</body>
+
+<!-- Mirrored from www.constructorainsur.com/ing/clientes.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:04 GMT -->
+</html>

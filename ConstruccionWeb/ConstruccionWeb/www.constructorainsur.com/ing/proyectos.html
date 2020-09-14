@@ -1,0 +1,491 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<!-- Mirrored from www.constructorainsur.com/ing/proyectos.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:00 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INSUR - constructora</title>
+<link rel="shortcut icon" href="../images/favicon.png">
+<link href="../css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../css/estilos.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../js/respond.min.js"></script>
+
+<!-- Owl Carousel Assets -->
+<link href="../css/owl.carousel.css" rel="stylesheet">
+<link href="../css/owl.theme.css" rel="stylesheet">
+<link href="../css/owl.transitions.css" rel="stylesheet">
+<link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">  
+<script src="../assets/js/jquery-1.9.1.min.js"></script> 
+<script src="../js/owl.carousel.js"></script>
+
+<!-- Demo -->
+<style>
+    #owl-demo .item img, #owl-demo_interna .item img, #owl-demo2 .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+      var owl = $("#owl-demo");
+      owl.owlCarousel({
+        navigation : false,
+        singleItem : true,
+        transitionStyle : "fade",
+		autoPlay: 7000,
+      });
+	  
+      $("#transitionType").change(function(){
+        var newValue = $(this).val();
+        owl.data("owlCarousel").transitionTypes(newValue);
+        owl.trigger("owl.next");
+      });
+    });
+
+</script>
+
+<link rel="stylesheet" href="../css/flickity.css" media="screen">
+<script src="../js/flickity.pkgd.js"></script>
+<script src="../js/flickity-docs.min.js"></script>
+<script>
+    $(document).ready(function() {
+		$('.carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+<script>
+    $(document).ready(function() {
+		$('.main-carousel').flickity({
+		  // options
+		  cellAlign: 'left',
+		  groupCells: true,
+		  imagesLoaded: true,
+		  pageDots: false,
+		  autoPlay: 6000,
+		});
+	});
+</script>
+
+<script src='../../www.google.com/recaptcha/api.js'></script>	
+<script type="text/javascript" src="../js/custom.js"></script>
+
+<style>
+#owl-demo_2 .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+</style>
+<script>
+$(document).ready(function() {
+      $("#owl-demo_2").owlCarousel({
+      navigation : false,
+      slideSpeed : 300,
+      singleItem : true,
+	  autoPlay: true,
+	  lazyLoad : true,
+      });
+});
+</script>
+
+<!--<script language="JavaScript">
+document.writeln(screen.width)
+</script>-->
+
+<script src="../js/jquery-latest.html"></script>
+<script type="text/javascript">	
+	
+	$(document).on("scroll",function(){
+		if($(document).scrollTop()>360){ 
+			$("#submenu").addClass("fijo");
+			$("#w_gale_proy").addClass("espacio");
+		} else {
+			$("#submenu").removeClass("fijo");
+			$("#w_gale_proy").removeClass("espacio");
+		}
+	});
+	$(document).ready(function() {
+    $('#cerrar').click(function() {
+		if ($('#example2_pop').hasClass('quitar')) {
+				$('#example2_pop').removeClass('quitar');
+				$('#cerrar').removeClass('girar');
+		} else {
+			$('#example2_pop').addClass('quitar');
+			$('#example2_pop_').addClass('quitar');
+			$('#cerrar').addClass('girar');
+			}
+		});
+	});
+
+	$(document).ready(function() {
+    $('#chat').click(function() {
+		if ($('#example2_pop').hasClass('ver')) {
+				$('#example2_pop').removeClass('ver');
+		} else {
+			$('#example2_pop').addClass('ver');
+			$('#example2_pop_').addClass('ver');
+			}
+		});
+	});
+</script>
+
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.10.1.min.html"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox8cbb.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons3447.css?v=1.0.5" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons3447.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-thumbsf2ad.css?v=1.0.7" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-thumbsf2ad.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-mediac924.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.html');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 's.php',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+	</style>
+
+<script>
+$(function($){
+	   $('#submenu a').click(function() {
+			var $this = $(this),
+			  _href = $this.attr('href'),
+					dest  = $(_href).offset().top;
+				$("html:not(:animated),body:not(:animated)").animate({  scrollTop: dest}, 400 );
+			return false;
+		}); 
+	});
+
+
+//$(document).on("scroll",function(){
+//		if($(document).scrollTop()>360){ 
+//			$('html, body').animate({
+//        		scrollTop: $('#w_bienvenido').offset().top
+//    		}, 'slow');
+//		}
+//	});
+
+	</script>
+
+</head><body>
+    
+    <ul class="navigation">
+  <li> <a href="index-2.html" class="transition" >HOME</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >ABOUT</a> </li>
+                    <li> <a href="servicios.html" class="transition" >SERVICES</a> </li>
+                    <li> <a href="proyectos.html" class="activo transition" >PROYECTS</a> </li>
+                    <li> <a href="clientes.html" class="transition" >CUSTOMERS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >CONTACT</a> </li>
+                    <li><li> <a href="../proyectos.html">ESP</a> </li></li>
+
+  <li><a href="mailto:info@constructorainsur.com">info@constructorainsur.com<br />(442) 215 3019</a></li>
+</ul>
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+    <div class="site-wrap">
+    <div id="logo_ip"><img class="logo" src="../images/logo_menu.jpg" width="48%"/></div>
+
+<div id="w_menu">
+        <div class="gridContainer clearfix">
+        	<div id="logo_menu"> <a href="index-2.html"><img src="../images/logo_menu.jpg"></a> </div>
+            <div id="menu">
+            	<ul>
+                	<li> <a href="index-2.html" class="transition" >home</a> </li>
+                    <li> <a href="conocenos.html" class="transition" >about</a> </li>
+                    <li> <a href="servicios.html" class="transition" >services</a> </li>
+                    <li> <a href="proyectos.html" class="activo transition" >projects</a> </li>
+                    <li> <a href="clientes.html" class="transition" >CLIENTS</a> </li>
+                    <li> <a href="contacto.html" class="transition" >contact</a> </li>
+                    
+                    <li> <a href="../proyectos.html"><img src="../images/idioma.png"> ESP</a> </li>                    
+                </ul>
+            </div>
+            <div class="cleare"></div>
+        
+        </div>
+    </div>
+        
+    <div id="top">
+    	        <div id="redes"> 
+        	<div id="face" class="redes_flotante"> <a href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"> <img src="images/face.html"></a> </div>
+            <div id="idioma" class="redes_flotante"> <a href="#"><img src="images/idioma.html"> ENG</a></div>
+        	<div class="cleare"></div>
+        </div>        
+        <div id="slide_internas" style=" background: url(../images/slide_proy.jpg) center / cover">
+        	<div class="caption">HIGH QUALITY<br><!--<hr style=" width: 30px; text-align: center">--><span>IN CONSTRUCTION</span></div>
+        </div>
+    </div>
+    
+     <div id="submenu">
+    	<div class="gridContainer clearfix">
+        	<ul id="menu_proy">
+                <li> <a href="proyectos.html#w_menu" class="activo transition btn_en_proy">CONCLUDED</a></li>
+                <li> <a href="https://www.constructorainsur.com/ing/proyectos.php?tipo=proceso#w_menu" class="btn_en_proy transition">IN PROCESS</a></li>
+                <!--<li> <a href="proyectos_pro.php#w_menu" >EN PROCESO</a></li>-->
+            </ul>
+        </div>
+    </div>
+    
+<div id="submenu" class="mostrar_ip">
+    	<div class="gridContainer clearfix">
+        	<ul id="menu_proy">
+                <li> <a href="proyectos.html#w_menu" class="activo transition btn_en_proy">CONCLUDED</a></li>
+                <li> <a href="https://www.constructorainsur.com/ing/proyectos.php?tipo=proceso#w_menu" class="btn_en_proy transition">IN PROCESS</a></li>
+                <!--<li> <a href="proyectos_pro.php#w_menu" >EN PROCESO</a></li>-->
+            </ul>
+        </div>
+    </div>
+        
+    <div id="w_gale_proy">
+    	<br><br>
+    	<h1 class="titulo" style=" text-align: center;">CONCLUDED PROJECTS</h1><br><br>
+        <div id="thumb">
+        	<div class="gridContainer clearfix">
+            <h1 class="titulo" style=" font-size: 20px">Pharmaceutical</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=4" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> Nucitec</div><div class="fecha"> 2014 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/DSC_0184.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=27" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/alemania.png"> B.Braun</div><div class="fecha"> 2018 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/BBRAUN_01.png) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Tools</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=1" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> Truper</div><div class="fecha"> 2012 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/truper.png) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Automotive</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=6" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/canada.png"> Narmx</div><div class="fecha"> 2016 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/NARMX-1.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=8" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/china.png"> Aceway</div><div class="fecha"> 2015 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/IMG_0821.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=15" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/alemania.png"> Ronal</div><div class="fecha"> 2015 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/ronal.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=17" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> Bandag</div><div class="fecha"> 2000 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/DSC_0002B.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=19" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/alemania.png"> Kirchhoff</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/3.png) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=24" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> STEMCO</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/20621009_1390925104305873_5026135068493042289_n.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Food Industry</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=5" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> Canels</div><div class="fecha"> 2016 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/IMG_9919.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Corrugated Industry</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=9" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> International Paper Nuevo León</div><div class="fecha"> 2001 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/DSC00178.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=10" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> International Paper Guanajuato</div><div class="fecha"> 1997 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/INLAND_GTO_1.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=22" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> Graphic Packaging</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/gSVN1H-a.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Plastic</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=11" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> Plastienvases</div><div class="fecha"> 1995 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/Plastienvases.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=12" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/italia.png"> Irritec</div><div class="fecha"> 2014 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/IMG_1741.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=20" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> Rubbermaid</div><div class="fecha"> 1996 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/rubbermaid.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=29" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/japon.png"> YAMADA </div><div class="fecha"> 2018 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/C-02.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Chemical</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=13" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/suiza.jpg"> Sika</div><div class="fecha"> 2010 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/Q-60.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=25" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/italia.png"> MAPEI</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/MAPEI-4.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Aerospace</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=21" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> Mexicana MRO</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/MEXICANA-1.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=28" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/bandera%20reino%20unido.png"> ITP AERO</div><div class="fecha"> 2018 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/1.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Metalmechanic</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=14" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> Peco Facet</div><div class="fecha"> 2013 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/pecofacet.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=23" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/italia.png"> Élica</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/ACCESO.png) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=34" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> FANASA</div><div class="fecha"> 2019 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/2.png) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Logistics</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=18" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> Asimex Global</div><div class="fecha"> 2014 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/asimex.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Fabrics</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=7" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/brasil.png"> Fitesa</div><div class="fecha"> 2015 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/F003.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Cosmetics</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=16" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/estados%20unidos.png"> Revlon</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/REVLON-3.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div><h1 class="titulo" style=" font-size: 20px">Agricultural</h1><br><div class="thumb_flotante"><a href="https://www.constructorainsur.com/ing/detalle.php?tipo=concluidos&amp;proyecto=26" class="transition"><div class="w_titulo_fecha"><div class="titulo_proy"> <img src="../images/mexico.png"> AGRO ALPINA</div><div class="fecha"> 2017 </div><div class="cleare"></div></div><div class="foto_proy" style=" background: url(../images/proyectos/Agroalpina_1.jpg) center / cover"><div class="btn_mas_proy"> <img src="../images/btn_serv_mas.png"> </div><div class="over"></div></div></a></div><div class="cleare"></div>            </div>
+        </div>
+    </div>
+    <div id="w_footer" style="letter-spacing:1px">
+    	<div class="gridContainer clearfix">
+        	<div id="logo_ft"> <img src="../images/logo_ft.png"> <p>®2020, ALL RIGHTS RESERVED</p> </div>
+            <div id="redes_ft"> <p>Tel. (442) 215 3019 /</p> <a href="mailto:info@constructorainsur.com" style=" color: #fff">info@constructorainsur.com</a>
+            <a id="fbfull" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fbfull" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fbfull" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fbfull" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+            </div>
+            <a id="fb" href="https://www.facebook.com/ConstructoraInsur/?fref=ts" target="_blank"><img src="../images/face_ft.png"></a>
+            <a id="fb" href="https://twitter.com/constructoinsur?lang=es" target="_blank"><img src="../images/twitter_ft.png"></a>
+            <a id="fb" href="https://mx.linkedin.com/company/constructora-insur" target="_blank"><img src="../images/linked_ft.png"></a>
+            <a id="fb" href="https://www.instagram.com/constructorainsur/" target="_blank"><img src="../images/instagram_ft.png"></a>
+        	<div class="cleare"></div>
+        </div>
+    </div>
+
+<!--fin de responsive-->
+</div>
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+		(function () {
+		var options = {
+		whatsapp: "+524423150697", // WhatsApp number
+		call_to_action: "Contact us", // Call to action
+		position: "right", // Position may be 'right' or 'left'
+		};
+		var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+		s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		})();
+	</script>
+	<!-- /WhatsHelp.io widget --> </body>
+
+<!-- Mirrored from www.constructorainsur.com/ing/proyectos.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Sep 2020 21:06:00 GMT -->
+</html>
